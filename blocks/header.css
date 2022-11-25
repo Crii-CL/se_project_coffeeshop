@@ -27,7 +27,8 @@
 }
 
 .header__description {
-  max-width: 683px;
+  display:
+    max-width: 683px;
 }
 
 .header__coffee-shop {
