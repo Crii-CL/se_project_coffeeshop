@@ -35,10 +35,18 @@
 
 .header__description {
   display: flex;
-  position: absolute;
-  top: 230px;
-  left: 80px;
+  position: relative;
+  z-index: 2;
+  flex-direction: row;
+  align-self: center;
+  right: 833px;
+  margin: 0;
   max-width: 683px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header__coffee-shop {
