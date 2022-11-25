@@ -1,5 +1,4 @@
 .header {
-  display: flex;
   background-image: url("../images/background_header.svg");
   background-color: #ffffff;
   background-size: cover;
@@ -11,18 +10,18 @@
   position: relative;
   z-index: 1;
   border: solid blue 1px;
+  padding-right: px;
 }
 
 .header__title {
   display: flex;
-  position: absolute;
   top: 202px;
   left: 80px;
   color: black;
   max-width: 729px;
+  margin: 202px 0 0 80px;
   flex-direction: column;
-  margin: 0;
-  font-family: Inter;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -30,7 +29,7 @@
 }
 
 .header__title_span-accent {
-  font-family: Noto Serif;
+  font-family: Noto Serif, "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -44,8 +43,8 @@
   z-index: 2;
   flex-direction: row;
   align-self: center;
-  right: 833px;
-  margin: 0;
+  left: 80px;
+
   max-width: 683px;
   font-family: Noto Serif;
   font-style: normal;
@@ -54,7 +53,7 @@
   line-height: 30px;
 }
 
-.header__coffee-shop {
+.header__image {
   display: flex;
   position: absolute;
   width: 646px;
@@ -75,7 +74,8 @@
 
 .header__wrapper_footer {
   position: relative;
-  left: 160px;
+  left: 80px;
+  padding-left: 80px;
 }
 
 .header__paragraph {
