@@ -10,6 +10,7 @@
   max-height: 800px;
   position: relative;
   z-index: 1;
+  border: solid blue 1px;
 }
 
 .header__title {
@@ -27,8 +28,8 @@
 }
 
 .header__description {
-  display:
-    max-width: 683px;
+  display: flex;
+  max-width: 683px;
 }
 
 .header__coffee-shop {
@@ -42,7 +43,6 @@
 
 .header__footer {
   display: flex;
-  box-sizing: border-box;
   justify-content: space-between;
   position: absolute;
   left: 0px;
@@ -52,15 +52,19 @@
 }
 
 .header__wrapper_footer {
+  position: relative;
+  left: 160px;
 }
 
 .header__paragraph {
   color: rgb(64, 64, 64);
   font-family: "Inter";
   font-style: normal;
-  align-items: flex-end;
+  align-self: flex-end;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   margin: 0;
+  position: relative;
+  right: 80px;
 }
