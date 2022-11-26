@@ -9,7 +9,6 @@
   max-height: 800px;
   position: relative;
   z-index: 1;
-  border: solid blue 1px;
   padding-right: px;
 }
 
@@ -44,7 +43,6 @@
   flex-direction: row;
   align-self: center;
   left: 80px;
-
   max-width: 683px;
   font-family: Noto Serif;
   font-style: normal;

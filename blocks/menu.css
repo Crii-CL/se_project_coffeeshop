@@ -1,0 +1,82 @@
+.menu {
+  background-color: #0a2750;
+  background-image: url("../images/background_menu.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu__title {
+  display: flex;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: white;
+  max-width: 780px;
+  justify-content: center;
+  padding-bottom: 24px;
+  padding-top: 100px;
+  margin: auto;
+}
+
+.menu__subtitle {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 780px;
+  color: rgb(254, 254, 254);
+  margin: auto;
+  text-align: center;
+}
+
+.menu__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menu__card {
+  font-size: 20px;
+  line-height: 30px;
+  gap: 100px;
+  padding-bottom: 100px;
+  max-width: 600px;
+  flex-basis: 550px;
+}
+
+.card__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(254, 254, 254);
+  padding-bottom: 32px;
+}
+
+.card__list {
+  padding-left: 0;
+  list-style: none;
+  color: rgb(254, 254, 254);
+  max-width: 600px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+.card__list-item {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(254, 254, 254);
+  padding-bottom: 16px;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid rgb(254, 254, 254);
+  margin: 0 1px 0 1px;
+}
