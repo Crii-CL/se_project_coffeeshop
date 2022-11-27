@@ -39,7 +39,7 @@
 .header__description {
   display: flex;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   flex-direction: row;
   align-self: center;
   left: 80px;

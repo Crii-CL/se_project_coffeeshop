@@ -1,0 +1,17 @@
+.reservation {
+  background: #d9e7ff url(../images/background_reservation.svg) no-repeat center /
+    cover;
+}
+
+.reservation__title {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 80px 0;
+}
+
+.reservation__form {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  width: 120px;
+}
