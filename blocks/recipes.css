@@ -3,7 +3,6 @@
     cover;
   display: flex;
   flex-direction: column;
-  border: solid;
 }
 
 .recipes__title {
