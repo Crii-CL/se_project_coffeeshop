@@ -22,6 +22,10 @@
   padding-bottom: 8px;
 }
 
+.form__label:last-child {
+  padding-bottom: 0;
+}
+
 .form__input {
   font-family: Inter;
   font-style: normal;
