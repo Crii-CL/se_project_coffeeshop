@@ -19,12 +19,12 @@
 }
 
 .footer__social-heading {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  margin: 0 0 0 auto;
+  margin: 0;
   display: flex;
   padding-bottom: 20px;
 }
@@ -38,7 +38,7 @@
 }
 
 .footer__list-item {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -52,14 +52,15 @@
   padding-bottom: 0;
 }
 
-.footer__social-icon {
-  padding-right: 10px;
-}
-
 .footer__social-link {
   color: #fff;
   text-decoration: none;
   transition: 1s;
+  display: flex;
+}
+
+.footer__social-icon {
+  padding-right: 10px;
 }
 
 .footer__social-link:hover {
@@ -69,10 +70,11 @@
 
 .footer__copyright {
   margin: 0;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  padding-top: 108px;
+  /* padding-top: 108px; */
+  padding-bottom: 60px;
 }
