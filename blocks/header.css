@@ -27,7 +27,7 @@
   line-height: 72px;
 }
 
-.header__title_span-accent {
+.header__span-accent {
   font-family: Noto serif, "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
@@ -70,7 +70,7 @@
   box-sizing: border-box;
 }
 
-.header__wrapper_footer {
+.header__paragraph_wrapper_footer {
   position: relative;
   left: 80px;
   padding-left: 80px;
