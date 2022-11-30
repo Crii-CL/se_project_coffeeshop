@@ -28,7 +28,7 @@
 }
 
 .header__title_span-accent {
-  font-family: Noto Serif, "Times New Roman", serif;
+  font-family: Noto serif, "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -44,7 +44,7 @@
   align-self: center;
   left: 80px;
   max-width: 683px;
-  font-family: Noto Serif;
+  font-family: Noto serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
