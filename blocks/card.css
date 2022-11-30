@@ -1,6 +1,6 @@
 .card {
   width: 600px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .card__title {
@@ -29,7 +29,7 @@
 
 .card__list-item {
   display: flex;
-  color: rgb(254, 254, 254);
+  color: #fff;
   padding-bottom: 16px;
   margin: 0;
 }
@@ -37,5 +37,4 @@
 .card__list-divider {
   flex-grow: 1;
   border-bottom: 1px solid #fff;
-  margin: 0 5px;
 }
