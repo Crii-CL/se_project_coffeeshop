@@ -1,23 +1,23 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
-  display: flex;
   padding: 60px 100px 60px 80px;
   color: #fff;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .footer__content {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .footer__logo {
   width: 116px;
   height: 21px;
-  margin: 0;
+}
+
+.footer__social {
+  margin-left: 100px;
 }
 
 .footer__social-heading {
@@ -27,8 +27,8 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0;
-  display: flex;
   justify-content: flex-end;
+  display: flex;
   padding-bottom: 20px;
 }
 
