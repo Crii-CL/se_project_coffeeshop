@@ -3,13 +3,15 @@
   display: flex;
   padding: 60px 100px 60px 80px;
   color: #fff;
-  flex-flow: row wrap;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .footer__content {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .footer__logo {
@@ -26,6 +28,7 @@
   line-height: 20px;
   margin: 0;
   display: flex;
+  justify-content: flex-end;
   padding-bottom: 20px;
 }
 
@@ -75,6 +78,6 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  /* padding-top: 108px; */
+  padding-top: 108px;
   padding-bottom: 60px;
 }
