@@ -78,7 +78,7 @@
 }
 
 .header__paragraph {
-  color: #6f6f6f;
+  color: #6f6f6f; /* This is the correct color according to the brief. "#6f6f6f (hours and address)"*/
   font-family: "Inter";
   font-style: normal;
   align-self: flex-end;
