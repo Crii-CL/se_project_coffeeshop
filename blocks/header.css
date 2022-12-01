@@ -18,7 +18,7 @@
   max-width: 729px;
   margin: 202px 0 0 80px;
   flex-direction: column;
-  font-family: "Inter";
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -50,6 +50,7 @@
   font-size: 20px;
   line-height: 30px;
   margin: 0;
+  padding-top: 28px;
 }
 
 .header__image {
@@ -72,20 +73,16 @@
 }
 
 .header__hours {
-  position: relative;
-  left: 80px;
   padding-left: 80px;
 }
 
 .header__paragraph {
   color: #6f6f6f; /* This is the correct color according to the brief. "#6f6f6f (hours and address)"*/
-  font-family: "Inter";
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   align-self: flex-end;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   margin: 0;
-  position: relative;
-  right: 80px;
 }
